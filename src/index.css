@@ -19,6 +19,7 @@
 	background: #FFFDF4;
 	background-blend-mode: darken;
 	background-size: cover;
+	border: 2px solid #1EA0FF;
 }
 
 .footer {
@@ -150,4 +151,8 @@ background-color: #000;
 	display: flex;
 	justify-content: center;
 	color: #fff;
+}
+
+.blueOutline {
+	border: 2px solid#1EA0FF;
 }
