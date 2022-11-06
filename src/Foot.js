@@ -4,10 +4,16 @@ import './App.css';
 function Foot() {
 	return (
 		<div>
-			<footer className="footer">
-				<p className="text-footer">
-					Copyright ©-All rights are reserved
-				</p>
+			<footer className="footer">//footer-background
+				<div class="footerSection">
+					<a>Ballin</a>
+				</div>
+				<div>
+					<a>Ballin</a>
+				</div>
+				<div>
+					<a>Ballin</a>
+				</div>
 			</footer>
 		</div>
 	)
