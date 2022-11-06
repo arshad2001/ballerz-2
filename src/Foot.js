@@ -3,15 +3,15 @@ import './App.css';
 
 function Foot() {
 	return (
-		<div>
-			<footer className="footer">//footer-background
+		<div className='footer-background'>
+			<footer className="footer">
 				<div class="footerSection">
 					<a>Ballin</a>
 				</div>
-				<div>
+				<div class="footerSection">
 					<a>Ballin</a>
 				</div>
-				<div>
+				<div class="footerSection">
 					<a>Ballin</a>
 				</div>
 			</footer>
