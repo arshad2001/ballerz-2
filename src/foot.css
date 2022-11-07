@@ -11,6 +11,9 @@
 	margin: auto;
 	padding: 20px 0 20px 0;
 }
+.footer a{
+	cursor: pointer;
+}
 .footer-section{
 	display: flex;
 	height: 100%;

@@ -1,17 +1,9 @@
 .nav-list {
-	width: 70%;
+	width: 80%;
 	display: flex;
-	align-items: center;
+    justify-self: center;
+	align-content: center;
 	justify-content: center;
-}
-.navbar {
-    position: -webkit-sticky;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: sticky;
-	top: 0;
-	cursor: pointer;
 }
 .nav-section{
 	display: flex;
@@ -19,7 +11,7 @@
 	max-width:80%;
 	padding: 16px 0 16px 0px;
 	align-content: center;
-    justify-content:center;
+    justify-content:left;
 }
 .nav-section a{
     text-align: center;
@@ -32,11 +24,10 @@
 	text-align: right;
 }
 .nav-list li a:hover {
-	font-weight: bold;
+    color: #1EA0FF;
 }
 .nav-list li a {
 	text-decoration: none;
-	font-size: large;
 	color: #000;
 	align-items:center ;
 	transition-duration: 200ms;
@@ -44,4 +35,52 @@
 .nav-list li {
 	list-style: none;
 	padding: 26px 30px;
+}
+.nav-list li {
+	list-style: none;
+	padding: 26px 30px;
+}
+
+.nav-list li a {
+	text-decoration: none;
+	color: #000;
+	align-items:center ;
+	transition-duration: 200ms;
+}
+
+
+.rightnav {
+	width: 30%;
+	text-align: right;
+}
+
+#search {
+	padding: 5px;
+	font-size: 17px;
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 9px;
+}
+
+/* .navbar {
+	justify-self: center;
+    position: -webkit-sticky;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	position: sticky;
+	top: 0;
+	width: 80%;
+	margin: auto;
+} */
+
+.navbar{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    margin: auto;
+}
+
+.logo-hima-navbar{
+    align-self:start;
+    cursor:pointer;
 }

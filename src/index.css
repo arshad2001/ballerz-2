@@ -10,9 +10,17 @@ body{
 body::-webkit-scrollbar {
 	display: none;
 }
+a{
+	align-self: auto;
+	justify-self: auto;
+}
+
 
 .font-weight-bold{
 	font-weight: bold;
+}
+.font-weight-medium{
+	font-weight:500;
 }
 .font-weight-light{
 	font-weight: 100;
@@ -28,6 +36,12 @@ body::-webkit-scrollbar {
 	color: #FFFDF4;
 }
 
+.font-size-32{
+	font-size: 32px
+}
+.font-size-28{
+	font-size: 28px;
+}
 .font-size-24{
 	font-size: 24px;
 } 
@@ -39,6 +53,9 @@ body::-webkit-scrollbar {
 }
 .font-size-12{
 	font-size: 12px;
+}
+.font-size-8{
+	font-size: 8px;
 }
 
 .font-spacing-4{
@@ -89,6 +106,9 @@ body::-webkit-scrollbar {
 	z-index: 1;
 }
 
+.image-size-128{
+	max-width: 128px;
+}
 .image-size-64{
 	max-width: 64px;
 }
@@ -99,31 +119,12 @@ body::-webkit-scrollbar {
 	max-width: 24px;
 }
 
-.navbar {
-	justify-self: center;
-    position: -webkit-sticky;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: sticky;
-	top: 0;
-	cursor: pointer;
-	width: 80%;
-	margin: auto;
-}
 
 .background {
 	background: #FFFDF4;
-	background-blend-mode: darken;
-	background-size: cover;
 }
 
-.nav-list {
-	width: 70%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
+
 
 .logo {
 	width: 15%;
@@ -137,34 +138,7 @@ body::-webkit-scrollbar {
 	border-radius: 50px;
 }
 
-.nav-list li {
-	list-style: none;
-	padding: 26px 30px;
-}
 
-.nav-list li a {
-	text-decoration: none;
-	font-size: large;
-	color: #000;
-	align-items:center ;
-	transition-duration: 200ms;
-}
-
-.nav-list li a:hover {
-	font-weight: bold;
-}
-
-.rightnav {
-	width: 30%;
-	text-align: right;
-}
-
-#search {
-	padding: 5px;
-	font-size: 17px;
-	border: 2px solid rgb(0, 0, 0);
-	border-radius: 9px;
-}
 
 .box-main {
 	display: flex;

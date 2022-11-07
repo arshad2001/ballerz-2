@@ -12,9 +12,9 @@ function Foot() {
 					<img src={logo} className='image-size-32 margin-right-8'/>
 					<a className='font-weight-bold'>HIMATEKKOM ITS</a>
 				</div>
-				<div class="spacing-28 footerSection font-size-16">
+				<div class="spacing-28 footerSection font-size-12">
 					<div className='footer-section-parent'>
-						<div className='footer-section-child font-weight-12'>
+						<div className='footer-section-child font-weight-normal'>
 							<a className='spacing-12 font-weight-bold font-size-16'>Join Us</a>
 							<a>Staff</a>
 							<a>Volunteer</a>
