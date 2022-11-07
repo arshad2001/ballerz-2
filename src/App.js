@@ -5,7 +5,7 @@ function App() {
 	return (
 		<div>
 			<section class="section">
-				<div class="box-main">
+				{/* <div class="box-main">
 					<div class="firstHalf">
 						<h1 class="text-big">
 							7 Best Tips To Speed Up Your
@@ -100,7 +100,7 @@ function App() {
 							places than one would expect.
 						</p>
 					</div>
-				</div>
+				</div> */}
 			</section>
 		</div>
 	)
