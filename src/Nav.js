@@ -6,7 +6,7 @@ import './index';
 function Nav() {
 	return (
 		<div>
-			<nav class="navbar background blueOutline">
+			<nav class="navbar background ">
 					<div class="logo">
 						<img src=
 "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210420155809/gfg-new-logo.png" />
