@@ -30,3 +30,6 @@
 	flex-direction: column;
 	margin: 0 32px 0 0;
 }
+.footer-section-parent  a:hover{
+	color:#FFE457;
+}
