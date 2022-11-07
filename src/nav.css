@@ -1,0 +1,47 @@
+.nav-list {
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.navbar {
+    position: -webkit-sticky;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+	cursor: pointer;
+}
+.nav-section{
+	display: flex;
+	height: 100%;
+	max-width:80%;
+	padding: 16px 0 16px 0px;
+	align-content: center;
+    justify-content:center;
+}
+.nav-section a{
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    margin-left: 8px;
+}
+.rightnav {
+	width: 30%;
+	text-align: right;
+}
+.nav-list li a:hover {
+	font-weight: bold;
+}
+.nav-list li a {
+	text-decoration: none;
+	font-size: large;
+	color: #000;
+	align-items:center ;
+	transition-duration: 200ms;
+}
+.nav-list li {
+	list-style: none;
+	padding: 26px 30px;
+}

@@ -4,6 +4,9 @@
 	padding: 0;
 	font-family: 'Poppins', sans-serif;
 }
+body{
+	background-color: #FFFDF4;
+}
 body::-webkit-scrollbar {
 	display: none;
 }
@@ -86,15 +89,18 @@ body::-webkit-scrollbar {
 	z-index: 1;
 }
 
-
+.image-size-64{
+	max-width: 64px;
+}
 .image-size-32{
-	max-height: 32px;
+	max-width: 32px;
 }
 .image-size-24{
-	max-height: 24px;
+	max-width: 24px;
 }
 
 .navbar {
+	justify-self: center;
     position: -webkit-sticky;
 	display: flex;
 	align-items: center;
@@ -102,6 +108,8 @@ body::-webkit-scrollbar {
 	position: sticky;
 	top: 0;
 	cursor: pointer;
+	width: 80%;
+	margin: auto;
 }
 
 .background {

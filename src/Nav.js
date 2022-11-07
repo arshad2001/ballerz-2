@@ -2,14 +2,15 @@ import React from 'react';
 import './App.css';
 import './nav.css';
 import './index';
+import logoColored from './assets/logo-colored.png';
 
 function Nav() {
 	return (
 		<div>
 			<nav class="navbar background ">
-					<div class="logo">
-						<img src=
-"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210420155809/gfg-new-logo.png" />
+					<div className='nav-section'>
+						<img src={logoColored} className='image-size-32 margin-8'/>
+						<a className='font-size-16 font-weight-bold'>HIMATEKKOM</a>
 					</div>
 				<ul class="nav-list">
 					<li><a href="#Home">Home</a></li>
