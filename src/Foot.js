@@ -3,6 +3,10 @@ import './App.css';
 import './index.css'
 import './foot.css';
 import logo from './assets/logo-white.png';
+import iconInsta from './assets/icon-instagram.png'
+import iconSpotify from './assets/icon-spotify.png'
+import iconTwitter from './assets/icon-twitter.png'
+import iconYoutube from './assets/icon-youtube.png'
 
 function Foot() {
 	return (
@@ -26,8 +30,12 @@ function Foot() {
 						</div>
 						<div className='footer-section-child font-weight-normal'>
 							<a className='spacing-12 font-weight-bold font-size-16'>Connect with Us</a>
-							<a>Help Center</a>
-							<a>Location</a>
+							<div className='footer-section-parent'>
+								<img src={iconInsta} className='image-size-24 margin-right-8'/>
+								<img src={iconSpotify} className='image-size-24 margin-right-8'/>
+								<img src={iconTwitter} className='image-size-24 margin-right-8'/>
+								<img src={iconYoutube} className='image-size-24 margin-right-8'/>
+							</div>
 						</div>
 						<div className='footer-section-child font-weight-normal'>
 							<a className='spacing-12 font-weight-bold font-size-16'>Help Us Grow</a>
