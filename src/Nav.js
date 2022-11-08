@@ -7,8 +7,8 @@ import logoText from './assets/logo-colored-text.png'
 
 function Nav() {
 	return (
-		<div className=' '>
-			<nav class="navbar ">
+		<div className='nav-background'>
+			<nav class='navbar'>
 				<div className='nav-section'>
 					<img src={logoColored} className='image-size-32 margin-8 logo-hima-navbar'/>
 					<a className='font-size-20 font-weight-bold'>HIMATEKKOM ITS</a>
