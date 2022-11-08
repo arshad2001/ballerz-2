@@ -5,6 +5,7 @@ function App() {
 	return (
 		<div>
 			<section class="section">
+				<a>This is before I try tailwindcss</a>
 			</section>
 		</div>
 	)
