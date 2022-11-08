@@ -40,7 +40,6 @@ function Foot() {
 						<div className='footer-section-child font-weight-normal'>
 							<a className='spacing-12 font-weight-bold font-size-16'>Help Us Grow</a>
 							<a>We are open to feedback!</a>
-							<a>bit.ly/PusatKS</a>
 						</div>
 					</div>
 				</div>

@@ -8,7 +8,7 @@
 .nav-section{
 	display: flex;
 	max-width:80%;
-	padding: 16px 0 16px 0px;
+	padding: 12px 0 12px 0px;
 	align-content: center;
     justify-content:left;
 }
@@ -37,7 +37,7 @@
 }
 .nav-list li {
 	list-style: none;
-	padding: 26px 30px;
+	padding: 16px 30px;
 }
 
 .nav-list li a {
