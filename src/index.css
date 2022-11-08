@@ -113,6 +113,12 @@ a{
 .image-size-64{
 	max-width: 64px;
 }
+.image-size-52{
+	max-width: 52px;
+}
+.image-size-48{
+	max-width: 48px;
+}
 .image-size-32{
 	max-width: 32px;
 }

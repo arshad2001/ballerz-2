@@ -7,7 +7,6 @@
 }
 .nav-section{
 	display: flex;
-	height: 100%;
 	max-width:80%;
 	padding: 16px 0 16px 0px;
 	align-content: center;
@@ -78,6 +77,7 @@
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     margin: auto;
+	align-items: center;
 }
 
 .logo-hima-navbar{
