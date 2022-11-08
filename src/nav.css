@@ -84,3 +84,9 @@
     align-self:start;
     cursor:pointer;
 }
+
+.nav-background{
+	background-image: url("./assets/footer-asset.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
