@@ -1,9 +1,9 @@
 .nav-list {
 	width: 80%;
 	display: flex;
-    justify-self: center;
+    justify-self: right;
 	align-content: center;
-	justify-content: center;
+	justify-content: right;
 }
 .nav-section{
 	display: flex;
@@ -75,7 +75,7 @@
 .navbar{
     width: 80%;
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-columns: 2fr 6fr;
     margin: auto;
 	align-items: center;
 }
