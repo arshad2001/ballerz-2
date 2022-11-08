@@ -13,6 +13,7 @@ body::-webkit-scrollbar {
 a{
 	align-self: auto;
 	justify-self: auto;
+	transition-duration: 300ms;
 }
 
 
@@ -119,6 +120,9 @@ a{
 	max-width: 24px;
 }
 
+.color-filter-yellow{
+	background-color: #FFE457;
+}
 
 .background {
 	background: #FFFDF4;
