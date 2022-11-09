@@ -4,13 +4,18 @@ import './index.css';
 import App from './App';
 import Nav from './Nav';
 import Foot from './Foot';
+import Card from './Card';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Nav />
-    <App />
+    <div class="grid grid-cols-4 gap-4">
+        <Card />
+        <Card />
+        <Card /> 
+    </div>
     <Foot />
   </React.StrictMode>
 );
