@@ -94,6 +94,6 @@
 	width: 100%;
 	position:fixed ;
 	right: 0;
-	backdrop-filter: blur(10px);
+	backdrop-filter: blur(20px);
 	z-index: 100;
 }
