@@ -11,11 +11,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Nav />
-    <div class="grid grid-cols-4 gap-4">
-        <Card />
-        <Card />
-        <Card /> 
-    </div>
+    <App />
+    <Card/>
+    <App/>
     <Foot />
   </React.StrictMode>
 );
