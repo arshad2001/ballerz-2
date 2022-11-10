@@ -1,20 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import Nav from './Nav';
-import Foot from './Foot';
-import Card from './Card';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import Card from "./Card";
+import Section_md from "./Section_md";
+import reportWebVitals from "./reportWebVitals";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Nav />
     <App />
-    <Card/>
-    <App/>
-    <Foot />
   </React.StrictMode>
 );
 
