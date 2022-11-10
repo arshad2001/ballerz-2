@@ -1,13 +1,15 @@
 import React from "react";
 import "./card.css";
+import image from "./assets/convergence-blue.png";
 
 function Card({ title, content }) {
   return (
     <div>
-      <div class="max-w-sm overflow-hidden border border-blue-500 hover:bg-blue-500 hover:text-white">
-        <div class="px-8 py-8">
-          <div class="font-bold text-xl mb-2">{title}</div>
-          <p class="text-base">{content}</p>
+      <div class="h-52 overflow-hidden border border-blue-500 hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out event">
+        <div class="px-4 py-4">
+          <div class="font-bold text-lg mb-4">{title}</div>
+          <p class="text-sm">{content}</p>
+          {/* <img src="/assets/logo-colored.png" /> */}
         </div>
       </div>
     </div>
