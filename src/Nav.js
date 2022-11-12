@@ -12,12 +12,12 @@ function Nav() {
         <div className="nav-section">
           <img
             src={logoColored}
-            className="image-size-32 margin-8 logo-hima-navbar "
+            className="image-size-32 margin-8 logo-hima-navbar hover:scale-110 transition duration-200 ease-in-out"
           />
           <a className="font-size-20 font-weight-bold">HIMATEKKOM ITS</a>
           {/* <a className='font-size-16 font-weight-bold'>HIMATEKKOM</a> */}
         </div>
-        <ul class="nav-list font-size-20 font-weight-normal hover:scale-120">
+        <ul class="nav-list font-size-20 font-weight-normal">
           <li>
             <a href="#Home">Home</a>
           </li>
