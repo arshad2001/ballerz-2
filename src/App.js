@@ -76,7 +76,7 @@ function App() {
     <>
       <Nav />
       <div>
-        <section class="section place-content-center py-20 ">
+        <section class="section place-content-center py-24 ">
           <div class="grid grid-cols-3">
             {cardContents.map(({ title, content }) => (
               <Card title={title} content={content} />

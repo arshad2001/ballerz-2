@@ -1,63 +1,60 @@
 .nav-list {
-	width: 80%;
-	display: flex;
-    justify-self: right;
-	align-content: center;
-	justify-content: right;
+  width: 80%;
+  display: flex;
+  justify-self: right;
+  align-content: center;
+  justify-content: right;
 }
-.nav-section{
-	display: flex;
-	max-width:80%;
-	padding: 12px 0 12px 0px;
-	align-content: center;
-    justify-content:left;
+.nav-section {
+  display: flex;
+  max-width: 80%;
+  padding: 12px 0 12px 0px;
+  align-content: center;
+  justify-content: left;
 }
-.nav-section a{
-    text-align: center;
-    justify-self: center;
-    align-self: center;
-    margin-left: 8px;
+.nav-section a {
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  margin-left: 8px;
 }
 .rightnav {
-	width: 30%;
-	text-align: right;
+  width: 30%;
+  text-align: right;
 }
-.nav-list li a:hover {
-    color: #1EA0FF;
-}
+/* .nav-list li a:hover {
+  color: #1ea0ff;
+} */
 .nav-list li a {
-	text-decoration: none;
-	color: #000;
-	align-items:center ;
-	transition-duration: 200ms;
+  text-decoration: none;
+  align-items: center;
+  transition-duration: 200ms;
 }
 .nav-list li {
-	list-style: none;
-	padding: 26px 30px;
+  list-style: none;
+  padding: 26px 30px;
 }
 .nav-list li {
-	list-style: none;
-	padding: 16px 30px;
+  list-style: none;
+  padding: 16px 30px;
 }
 
 .nav-list li a {
-	text-decoration: none;
-	color: #000;
-	align-items:center ;
-	transition-duration: 200ms;
+  text-decoration: none;
+  align-items: center;
+  transition-duration: 200ms;
 }
-
 
 .rightnav {
-	width: 30%;
-	text-align: right;
+  width: 30%;
+  text-align: right;
 }
 
 #search {
-	padding: 5px;
-	font-size: 17px;
-	border: 2px solid rgb(0, 0, 0);
-	border-radius: 9px;
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 9px;
 }
 
 /* .navbar {
@@ -72,27 +69,27 @@
 	margin: auto;
 } */
 
-.navbar{
-    width: 80%;
-    display: grid;
-    grid-template-columns: 2fr 6fr;
-    margin: auto;
-	align-items: center;
+.navbar {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+  margin: auto;
+  align-items: center;
 }
 
-.logo-hima-navbar{
-    align-self:start;
-    cursor:pointer;
+.logo-hima-navbar {
+  align-self: start;
+  cursor: pointer;
 }
 
-.nav-background{
-	/* background-image: url("./assets/footer-asset.png");
+.nav-background {
+  /* background-image: url("./assets/footer-asset.png");
 	background-repeat: no-repeat;
 	background-position: right; 
 	background-color: #FFFDF4;
 	opacity: .6;*/
-	width: 100%;
-	position:fixed ;
-	right: 0;
-	z-index: 100;
+  width: 100%;
+  position: fixed;
+  right: 0;
+  z-index: 100;
 }
