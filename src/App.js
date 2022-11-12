@@ -63,6 +63,15 @@ const cardContents = [
   },
 ];
 
+/*
+Jadi dalem app tuh harus udah ada semuanya
+so,,, apa yang ada di index direplace aja sama app. why? cuz it's THE WAY~
+heres the plan
+app dalem index
+trus component2 lain dalem app
+this is the task for today yessir bismillah
+*/
+
 function App() {
   return (
     <>
