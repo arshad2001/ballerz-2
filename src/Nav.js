@@ -7,7 +7,7 @@ import logoText from "./assets/logo-colored-text.png";
 
 function Nav() {
   return (
-    <div className="nav-background shadow-md backdrop-blur-sm bg-amber-300/	">
+    <div className="nav-background shadow-md backdrop-blur-[3px] bg-white/60	">
       <nav class="navbar">
         <div className="nav-section">
           <img
