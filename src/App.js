@@ -11,7 +11,6 @@ const cardContents = [
     content: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 				Voluptatibus quia, nulla! Maiores et perferendis eaque,
 				exercitationem praesentium nihil.`,
-				
   },
   {
     title: "THE EXECUTIVE BOARD",
@@ -77,7 +76,7 @@ function App() {
     <>
       <Nav />
       <div>
-        <section class="section place-content-center py-20 px-80">
+        <section class="section place-content-center py-20 ">
           <div class="grid grid-cols-3">
             {cardContents.map(({ title, content }) => (
               <Card title={title} content={content} />

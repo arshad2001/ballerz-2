@@ -5,7 +5,7 @@ import image from "./assets/convergence-blue.png";
 function Card({ title, content }) {
   return (
     <div>
-      <div class="h-52 overflow-hidden border border-custom-blue hover:bg-custom-blue hover:text-white transition duration-300 ease-in-out event">
+      <div class="h-52 w-80 hover:scale-105 hover:shadow-2xl overflow-hidden border bg border-custom-blue hover:bg-custom-blue hover:text-white transition duration-300 ease-in-out event cursor-pointer">
         <div class="px-4 py-4">
           <div class="font-bold text-lg mb-4">{title}</div>
           <p class="text-sm">{content}</p>

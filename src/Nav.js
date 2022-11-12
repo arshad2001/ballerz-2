@@ -17,7 +17,7 @@ function Nav() {
           <a className="font-size-20 font-weight-bold">HIMATEKKOM ITS</a>
           {/* <a className='font-size-16 font-weight-bold'>HIMATEKKOM</a> */}
         </div>
-        <ul class="nav-list font-size-20 font-weight-normal">
+        <ul class="nav-list font-size-20 font-weight-normal hover:scale-120">
           <li>
             <a href="#Home">Home</a>
           </li>

@@ -3,8 +3,13 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      colors:{
-        'custom-blue' : '#1EA0FF',
+      colors: {
+        "custom-blue": "#1EA0FF",
+        "custom-white": "#FFFDF4",
+        "custom-yellow": "#FFE457",
+      },
+      scale: {
+        102: "1.02",
       },
     },
   },
