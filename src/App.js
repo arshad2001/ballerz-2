@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Nav from "./Nav";
 import Foot from "./Foot";
-
+import Intro from "./Intro";
 import Card from "./Card";
 
 const cardContents = [
@@ -76,6 +76,11 @@ function App() {
     <>
       <Nav />
       <div>
+        <section className="">
+          <div>
+            <Intro />
+          </div>
+        </section>
         <section class="section place-content-center py-24 ">
           <div class="grid grid-cols-3">
             {cardContents.map(({ title, content }) => (

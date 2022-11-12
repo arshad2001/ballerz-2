@@ -7,7 +7,8 @@ import logoText from "./assets/logo-colored-text.png";
 
 function Nav() {
   return (
-    <div className="nav-background shadow-md  bg-black text-white	bac">
+    // <div className="nav-background shadow-md  bg-black text-white	bac">
+    <div className="nav-background shadow-md  bg-white text-black	bac">
       <nav class="navbar">
         <div className="nav-section">
           <img
@@ -18,14 +19,14 @@ function Nav() {
           {/* <a className='font-size-16 font-weight-bold'>HIMATEKKOM</a> */}
         </div>
 
-        <ul class="nav-list font-size-20 font-weight-normal text-white">
-          <li className="hover:text-custom-yellow">
+        <ul class="nav-list font-size-20 font-weight-normal text-black">
+          <li className="hover:text-custom-blue">
             <a href="#Home">Home</a>
           </li>
-          <li className="hover:text-custom-yellow">
+          <li className="hover:text-custom-blue">
             <a href="#Info">Info</a>
           </li>
-          <li className="hover:text-custom-yellow">
+          <li className="hover:text-custom-blue">
             <a href="#Academic">Academic</a>
           </li>
         </ul>
