@@ -15,7 +15,9 @@ function Nav() {
             src={logoColored}
             className="image-size-32 margin-8 logo-hima-navbar hover:scale-110 transition duration-200 ease-in-out"
           />
-          <a className="font-size-20 font-weight-bold">HIMATEKKOM ITS</a>
+          <a className="font-size-20 font-weight-bold cursor-pointer">
+            HIMATEKKOM ITS
+          </a>
           {/* <a className='font-size-16 font-weight-bold'>HIMATEKKOM</a> */}
         </div>
 

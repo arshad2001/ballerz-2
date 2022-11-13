@@ -38,18 +38,21 @@ function Foot() {
                 Connect with Us
               </a>
               <div className="footer-section-parent">
-                <img src={iconInsta} className="image-size-24 margin-right-8" />
+                <img
+                  src={iconInsta}
+                  className="image-size-24 margin-right-8 cursor-pointer"
+                />
                 <img
                   src={iconSpotify}
-                  className="image-size-24 margin-right-8"
+                  className="image-size-24 margin-right-8 cursor-pointer"
                 />
                 <img
                   src={iconTwitter}
-                  className="image-size-24 margin-right-8"
+                  className="image-size-24 margin-right-8 cursor-pointer"
                 />
                 <img
                   src={iconYoutube}
-                  className="image-size-24 margin-right-8"
+                  className="image-size-24 margin-right-8 cursor-pointer"
                 />
                 {/* <BeakerIcon className="h-6 w-6 text-blue-500"/> */}
               </div>
