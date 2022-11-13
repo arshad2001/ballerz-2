@@ -72,7 +72,7 @@
 .navbar {
   width: 80%;
   display: grid;
-  grid-template-columns: 2fr 6fr;
+  grid-template-columns: 3fr 6fr;
   margin: auto;
   align-items: center;
 }
