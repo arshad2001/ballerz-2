@@ -63,7 +63,7 @@ function Foot() {
           </div>
         </div>
         <div class="footer-section font-weight-light font-size-18 font-spacing-normal">
-          <a className="font-weight-light">
+          <a className="font-extralight hover:text-custom-yellow">
             2022 | RELCOM CONVERGENCE HIMATEKKOM ITS
           </a>
         </div>
