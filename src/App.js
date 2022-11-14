@@ -61,6 +61,30 @@ const cardContents = [
 				Voluptatibus quia, nulla! Maiores et perferendis eaque,
 				exercitationem praesentium nihil.`,
   },
+  {
+    title: "INTERNAL AFFAIRS",
+    content: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				Voluptatibus quia, nulla! Maiores et perferendis eaque,
+				exercitationem praesentium nihil.`,
+  },
+  {
+    title: "HUMAN RESOURCES",
+    content: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				Voluptatibus quia, nulla! Maiores et perferendis eaque,
+				exercitationem praesentium nihil.`,
+  },
+  {
+    title: "ENTREPRENEURSHIP",
+    content: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				Voluptatibus quia, nulla! Maiores et perferendis eaque,
+				exercitationem praesentium nihil.`,
+  },
+  {
+    title: "RESEARCH & PROFESSION",
+    content: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				Voluptatibus quia, nulla! Maiores et perferendis eaque,
+				exercitationem praesentium nihil.`,
+  },
 ];
 
 /*
@@ -76,7 +100,7 @@ function App() {
   return (
     <div className="">
       <Nav />
-      <div className="pt-8">
+      <div className="pt-20 pb-8 h-fit">
         <section class="section place-content-center">
           <div class="grid grid-cols-3">
             {cardContents.map(({ title, content }) => (
@@ -84,8 +108,7 @@ function App() {
             ))}
           </div>
         </section>
-        <div>
-        </div>
+        <div></div>
       </div>
       <Foot />
     </div>
