@@ -4,6 +4,7 @@ import Nav from "./Nav";
 import Foot from "./Foot";
 import Intro from "./Intro";
 import Card from "./Card";
+import Content from "./Content";
 
 const cardContents = [
   {
@@ -73,24 +74,33 @@ this is the task for today yessir bismillah
 
 function App() {
   return (
-    <>
+    <div className="">
       <Nav />
-      <div>
-        <section className="">
-          <div>
-            <Intro />
-          </div>
-        </section>
-        <section class="section place-content-center py-24 ">
-          <div class="grid grid-cols-3">
-            {cardContents.map(({ title, content }) => (
-              <Card title={title} content={content} />
-            ))}
-          </div>
-        </section>
+      <div className="">
+        <Content />
+        <div>
+          <section class="section place-content-center">
+            <div class="grid grid-cols-3">
+              {cardContents.map(({ title, content }) => (
+                <Card title={title} content={content} />
+              ))}
+            </div>
+          </section>
+        </div>
+        <Content />
+        <div>
+          <section class="section place-content-center">
+            <div class="grid grid-cols-3">
+              {cardContents.map(({ title, content }) => (
+                <Card title={title} content={content} />
+              ))}
+            </div>
+          </section>
+        </div>
+        <Content />
       </div>
       <Foot />
-    </>
+    </div>
   );
 }
 //I think we need to make the app as a segment for the page itself
