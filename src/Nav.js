@@ -7,7 +7,7 @@ function Nav() {
   return (
     // <div className="nav-background shadow-md  bg-black text-white	bac">
     <div className="w-full bg-white text-black shadow-md fixed z-50">
-      <nav class="w-4/5 h-16 grid grid-cols-2 m-auto items-center">
+      <nav class="w-4/5 h-15 grid grid-cols-2 m-auto items-center">
         <div className="flex w-max py-3 center justify-start">
           <img
             src={logoColored}
@@ -19,11 +19,6 @@ function Nav() {
           {/* <a className='font-size-16 font-weight-bold'>HIMATEKKOM</a> */}
         </div>
         {/* ini bisa banget pake component, but still dunno how hehe */}
-        {/* width: 80%; 
-        display: flex; 
-        justify-self: right; 
-        align-content: center;
-        justify-content: right; */}
         <ul class=" w-4/5 flex content-right justify-end justify-self-end text-xl font-base text-black">
           <li>
             <a href="#Home" className="hover:text-custom-blue ">

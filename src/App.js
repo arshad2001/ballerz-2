@@ -77,7 +77,7 @@ function App() {
     <div className="">
       <Nav />
       <div className="pt-20 pb-8">
-        <section class="section place-content-center">
+        <section class=" bg-custom-white flex items-center content-between place-content-center">
           <div class="grid grid-cols-3">
             {cardContents.map(({ title, content }) => (
               <Card title={title} content={content} />
