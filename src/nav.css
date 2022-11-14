@@ -5,6 +5,7 @@
   align-content: center;
   justify-content: right;
 }
+/* flex */
 .nav-section {
   display: flex;
   width: max-content;
@@ -69,27 +70,27 @@
 	margin: auto;
 } */
 
-.navbar {
+/* .navbar {
   width: 80%;
   display: grid;
   grid-template-columns: 3fr 3fr;
   margin: auto;
   align-items: center;
-}
+} */
 
 .logo-hima-navbar {
   align-self: start;
   cursor: pointer;
 }
 
-.nav-background {
-  /* background-image: url("./assets/footer-asset.png");
+/* .nav-background {
+  background-image: url("./assets/footer-asset.png");
 	background-repeat: no-repeat;
 	background-position: right; 
 	background-color: #FFFDF4;
-	opacity: .6;*/
+	opacity: .6;
   width: 100%;
   position: fixed;
   right: 0;
   z-index: 100;
-}
+} */

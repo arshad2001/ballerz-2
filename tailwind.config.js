@@ -11,6 +11,9 @@ module.exports = {
       scale: {
         102: "1.02",
       },
+      maxWidth: {
+        "32px": "32px",
+      },
     },
   },
   plugins: [],

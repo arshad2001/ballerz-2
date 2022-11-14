@@ -76,7 +76,7 @@ function App() {
   return (
     <div className="">
       <Nav />
-      <div className="">
+      <div className="pt-8">
         <Content />
         <div>
           <section class="section place-content-center">
