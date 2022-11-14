@@ -77,27 +77,15 @@ function App() {
     <div className="">
       <Nav />
       <div className="pt-8">
-        <Content />
+        <section class="section place-content-center">
+          <div class="grid grid-cols-3">
+            {cardContents.map(({ title, content }) => (
+              <Card title={title} content={content} />
+            ))}
+          </div>
+        </section>
         <div>
-          <section class="section place-content-center">
-            <div class="grid grid-cols-3">
-              {cardContents.map(({ title, content }) => (
-                <Card title={title} content={content} />
-              ))}
-            </div>
-          </section>
         </div>
-        <Content />
-        <div>
-          <section class="section place-content-center">
-            <div class="grid grid-cols-3">
-              {cardContents.map(({ title, content }) => (
-                <Card title={title} content={content} />
-              ))}
-            </div>
-          </section>
-        </div>
-        <Content />
       </div>
       <Foot />
     </div>

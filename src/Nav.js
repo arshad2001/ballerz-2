@@ -31,12 +31,12 @@ function Nav() {
             </a>
           </li>
           <li>
-            <a href="#Info" className="hover:text-custom-blue pl-5">
+            <a href="#Info" className="hover:text-custom-blue pl-6">
               Info
             </a>
           </li>
           <li>
-            <a href="#Academic" className="hover:text-custom-blue pl-5">
+            <a href="#Academic" className="hover:text-custom-blue pl-6">
               Academic
             </a>
           </li>

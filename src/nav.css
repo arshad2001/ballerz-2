@@ -1,3 +1,4 @@
+/*
 .nav-list {
   width: 80%;
   display: flex;
@@ -5,7 +6,6 @@
   align-content: center;
   justify-content: right;
 }
-/* flex */
 .nav-section {
   display: flex;
   width: max-content;
@@ -25,7 +25,7 @@
 }
 /* .nav-list li a:hover {
   color: #1ea0ff;
-} */
+} 
 .nav-list li a {
   text-decoration: none;
   align-items: center;
@@ -39,7 +39,7 @@
   list-style: none;
   padding: 16px 30px;
 }
-/* 
+
 .nav-list li a {
   text-decoration: none;
   align-items: center;

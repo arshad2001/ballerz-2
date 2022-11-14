@@ -3,8 +3,10 @@ import "./card.css";
 
 function Content() {
   return (
-    <div className="w-screen h-fit bg-custom-white">
-      <div className=" bg-custom-white h-fit"></div>
+    <div className="w-screen h-screen bg-custom-white">
+      <div className=" bg-custom-white h-fit">
+
+      </div>
     </div>
   );
 }
