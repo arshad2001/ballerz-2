@@ -1,7 +1,5 @@
 import React from "react";
-import "./App.css";
 import "./nav.css";
-import "./index.css";
 import logoColored from "./assets/logo-colored.png";
 import logoText from "./assets/logo-colored-text.png";
 
@@ -21,19 +19,24 @@ function Nav() {
           {/* <a className='font-size-16 font-weight-bold'>HIMATEKKOM</a> */}
         </div>
         {/* ini bisa banget pake component, but still dunno how hehe */}
-        <ul class="nav-list text-xl font-base text-black">
+        {/* width: 80%; 
+        display: flex; 
+        justify-self: right; 
+        align-content: center;
+        justify-content: right; */}
+        <ul class=" w-4/5 flex content-right justify-end justify-self-end text-xl font-base text-black">
           <li>
-            <a href="#Home" className="hover:text-custom-blue">
+            <a href="#Home" className="hover:text-custom-blue ">
               Home
             </a>
           </li>
           <li>
-            <a href="#Info" className="hover:text-custom-blue">
+            <a href="#Info" className="hover:text-custom-blue pl-5">
               Info
             </a>
           </li>
           <li>
-            <a href="#Academic" className="hover:text-custom-blue">
+            <a href="#Academic" className="hover:text-custom-blue pl-5">
               Academic
             </a>
           </li>

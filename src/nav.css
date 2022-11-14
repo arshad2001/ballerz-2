@@ -39,7 +39,7 @@
   list-style: none;
   padding: 16px 30px;
 }
-
+/* 
 .nav-list li a {
   text-decoration: none;
   align-items: center;
@@ -56,7 +56,7 @@
   font-size: 17px;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 9px;
-}
+} */
 
 /* .navbar {
 	justify-self: center;
@@ -78,10 +78,10 @@
   align-items: center;
 } */
 
-.logo-hima-navbar {
+/* .logo-hima-navbar {
   align-self: start;
   cursor: pointer;
-}
+} */
 
 /* .nav-background {
   background-image: url("./assets/footer-asset.png");
