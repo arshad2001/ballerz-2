@@ -74,7 +74,7 @@ this is the task for today yessir bismillah
 
 function App() {
   return (
-    <div className="">
+    <div className="h-screen w-screen">
       <Nav />
       <div className="pt-24 pb-8">
         <section class=" flex items-center content-between place-content-center">
