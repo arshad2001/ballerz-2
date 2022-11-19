@@ -9,57 +9,48 @@ import Content from "./Content";
 const cardContents = [
   {
     title: "CONVERGENCE",
-    content: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-				Voluptatibus quia, nulla! Maiores et perferendis eaque,
-				exercitationem praesentium nihil.`,
+    content: "CONVERGENCE",
+    image: "./convergence-blue.png",
   },
   {
     title: "THE EXECUTIVE BOARD",
-    content: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-				Voluptatibus quia, nulla! Maiores et perferendis eaque,
-				exercitationem praesentium nihil.`,
+    content: "CONVERGENCE",
+    image: "./exec-blue.png",
   },
   {
     title: "TIMELINE",
-    content: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-				Voluptatibus quia, nulla! Maiores et perferendis eaque,
-				exercitationem praesentium nihil.`,
+    content: "CONVERGENCE",
+    image: "./convergence-blue.png",
   },
   {
     title: "STUDENT WELFARE",
-    content: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-				Voluptatibus quia, nulla! Maiores et perferendis eaque,
-				exercitationem praesentium nihil.`,
+    content: "CONVERGENCE",
+    image: "./studfare-blue.png",
   },
   {
     title: "RELATIONS & COMMUNICATIONS ",
-    content: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-				Voluptatibus quia, nulla! Maiores et perferendis eaque,
-				exercitationem praesentium nihil.`,
+    content: "CONVERGENCE",
+    image: "./relcom-blue.png",
   },
   {
     title: "INTERNAL AFFAIRS",
-    content: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-				Voluptatibus quia, nulla! Maiores et perferendis eaque,
-				exercitationem praesentium nihil.`,
+    content: "CONVERGENCE",
+    image: "./internal-blue.png",
   },
   {
     title: "HUMAN RESOURCES",
-    content: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-				Voluptatibus quia, nulla! Maiores et perferendis eaque,
-				exercitationem praesentium nihil.`,
+    content: "CONVERGENCE",
+    image: "./hrd-blue.png",
   },
   {
     title: "ENTREPRENEURSHIP",
-    content: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-				Voluptatibus quia, nulla! Maiores et perferendis eaque,
-				exercitationem praesentium nihil.`,
+    content: "CONVERGENCE",
+    image: "./entr-blue.png",
   },
   {
     title: "RESEARCH & PROFESSION",
-    content: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-				Voluptatibus quia, nulla! Maiores et perferendis eaque,
-				exercitationem praesentium nihil.`,
+    content: "CONVERGENCE",
+    image: "./respro-blue.png",
   },
 ];
 
@@ -77,10 +68,10 @@ function App() {
     <div className="">
       <Nav />
       <div className="pt-20 pb-8">
-        <section class=" bg-custom-white flex items-center content-between place-content-center">
-          <div class="grid grid-cols-3">
-            {cardContents.map(({ title, content }) => (
-              <Card title={title} content={content} />
+        <section class=" flex items-center content-between place-content-center">
+          <div class="bg-custom-white  grid grid-cols-3">
+            {cardContents.map(({ title, content, image }) => (
+              <Card title={title} content={content} image={image} />
             ))}
           </div>
         </section>

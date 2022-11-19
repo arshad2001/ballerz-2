@@ -14,6 +14,12 @@ module.exports = {
       maxWidth: {
         "32px": "32px",
       },
+      width: {
+        card: "360px",
+      },
+      height: {
+        card: "270px",
+      },
     },
   },
   plugins: [],

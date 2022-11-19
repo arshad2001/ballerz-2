@@ -1,3 +1,8 @@
+.naving {
+  mix-blend-mode: exclusion;
+  font-size: 50px;
+}
+
 /*
 .nav-list {
   width: 80%;
