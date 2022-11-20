@@ -74,18 +74,22 @@ this is the task for today yessir bismillah
 
 function App() {
   return (
-    <div className="h-screen w-screen">
+    <div className="h-fit w-screen bg-[url('./assets/elipse.png')] bg-[length:1200px] bg-no-repeat bg-center bg-scroll">
       <Nav />
-      <div className="pt-24 pb-8">
-        <section class=" flex items-center content-between place-content-center">
-          <div class="bg-custom-white  grid grid-cols-3">
-            {cardContents.map(({ title, content, image }) => (
-              <Card title={title} content={content} image={image} />
-            ))}
-          </div>
-        </section>
+      <div className="pt-[53.49px]">
+        <Intro />
+        <Content />
+        <div className="pt-8 pb-8">
+          <section class=" flex items-center content-between place-content-center">
+            <div class="bg-custom-white  grid grid-cols-3">
+              {cardContents.map(({ title, content, image }) => (
+                <Card title={title} content={content} image={image} />
+              ))}
+            </div>
+          </section>
+        </div>
+        <Foot />
       </div>
-      <Foot />
     </div>
   );
 }

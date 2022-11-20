@@ -1,38 +1,38 @@
-.footer-background{
-	background-color: #000;
-	background-image: url("./assets/footer-asset.png");
-	background-repeat: no-repeat;
-	background-position: right;
+.footer-background {
+  background-color: #000;
+  background-image: url("./assets/footer-asset.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .footer {
-	display:flex;
-	flex-direction: column;
-	width: 80%;
-	margin: auto;
-	padding: 20px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding: 20px 0 20px 0;
 }
-.footer a{
-	cursor: pointer;
+.footer a {
+  cursor: pointer;
 }
-.footer-section{
-	display: flex;
-	height: 100%;
-	max-width:80%;
-	padding: 16px 0 16px 0px;
-	align-content: center;
+.footer-section {
+  display: flex;
+  height: 100%;
+  max-width: 80%;
+  padding: 16px 0 16px 0px;
+  align-content: center;
 }
-.footer-section-parent{
-	display: flex;
-	flex-direction: row;
+.footer-section-parent {
+  display: flex;
+  flex-direction: row;
 }
-.footer-section-child{
-	display: flex;
-	flex-direction: column;
-	margin: 0 32px 0 0;
+.footer-section-child {
+  display: flex;
+  flex-direction: column;
+  margin: 0 32px 0 0;
 }
-.footer-section-parent img:hover{
-	color:#FFE457;
+.footer-section-parent img:hover {
+  color: #ffe457;
 }
-.footer-section-parent  a:hover{
-	color:#FFE457;
+.footer-section-parent a:hover {
+  color: #ffe457;
 }

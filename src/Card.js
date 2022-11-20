@@ -14,14 +14,17 @@ function Card({ title, content, image, hover }) {
         style={{
           backgroundImage: `url(${image})`,
         }}
-        className="bg-[top_.5px_left_-.5px] bg-contain bg-no-repeat h-[200px] w-[280px] hover:scale-105 hover:shadow-2xl overflow-hidden border
+        className=" bg-[top_.5px_left_-.5px] bg-contain bg-no-repeat h-[200px] w-[280px] hover:scale-105 hover:shadow-2xl overflow-hidden border
         border-custom-blue hover:text-white hover:bg-custom-blue
-        transition duration-300 ease-in-out event cursor-pointer"
+        transition duration-300 ease-in-out"
       >
-        <div class="px-4 py-4">
-          <div class="text-[10px]">{content}</div>
-          <p class="font-bold text-[20px] mb-4 ">{title}</p>
-          {/* <img src="/assets/logo-colored.png" /> */}
+        <div className="px-3 py-3 h-[100px]">
+          <p className="text-[12px]">{content}</p>
+          <p className="font-bold text-[20px]">{title}</p>
+        </div>
+        <div className="text-[12px] px-4 py-4 h-[100px] pl-44 pt-16 flex flex-row">
+          <p className="pr-[4px]  event cursor-pointer">lihat detail </p>
+          <p className=" event cursor-pointer"> -> </p>
         </div>
       </div>
     </div>
