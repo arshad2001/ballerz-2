@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bigballs {
+  background-image: url("./assets/convergence-blue.png");
+}
