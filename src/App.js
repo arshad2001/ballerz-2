@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import Nav from "./Nav";
 import Foot from "./Foot";
@@ -73,14 +73,29 @@ this is the task for today yessir bismillah
 */
 
 function App() {
+  useEffect(() => {
+    document.body.className = "snap-mandatory snap-y";
+  }, []);
+
   return (
-    <div className="h-fit w-screen bg-[url('./assets/elipse.png')] bg-[length:1200px] bg-no-repeat bg-center bg-scroll">
+    <div className="h-fit w-screen overflow-hidden">
       <Nav />
       <div className="pt-[53.49px]">
-        <Intro />
-        <Content />
-        <div className="pt-8 pb-8">
-          <section class=" flex items-center content-between place-content-center">
+        <div
+          className="snap-center shrink-0"
+          style={{
+            scrollSnapPointsY: "repeat (100vh)",
+          }}
+        >
+          {" "}
+          <Intro />
+        </div>
+        <div className="shrink-0">
+          {" "}
+          <Content />
+        </div>
+        <div className="snap-center shrink-0 h-fit pt-[350px] pb-[64px] bg-[url('./assets/elipse.png')] bg-[length:1400px] bg-no-repeat bg-[center_top_1rem]">
+          <section class="flex items-center content-between place-content-center">
             <div class="bg-custom-white  grid grid-cols-3">
               {cardContents.map(({ title, content, image }) => (
                 <Card title={title} content={content} image={image} />
@@ -88,7 +103,7 @@ function App() {
             </div>
           </section>
         </div>
-        <Foot />
+        <Foot className="" />
       </div>
     </div>
   );

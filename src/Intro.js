@@ -3,7 +3,7 @@ import "./App.css";
 
 function Foot() {
   return (
-    <div className="h-screen w-screen m-auto grid grid-cols-2 bg-custom-yellow items-center scroll-smooth hover:scroll-auto">
+    <div className="h-screen w-screen m-auto grid grid-cols-2 bg-custom-yellow items-center scroll-smooth hover:scroll-auto shadow-md">
       <div className="bg-[url('./assets/himatekkomgang.jpg')] sepia-[.7] bg-cover bg-no-repeat h-full "></div>
       <div className="flex flex-col text-start mx-12">
         <a className="font-bold text-[48px]">
