@@ -8,7 +8,7 @@ function Nav() {
     // <div className="nav-background shadow-md  bg-black text-white	bac">
     <div className="w-full bg-white/20 backdrop-blur-[2px] shadow-md text-black fixed z-50">
       <nav class="w-4/5 h-15 grid grid-cols-2 m-auto items-center">
-        <div className="flex w-max py-3 center justify-start  hover:scale-110 transition duration-200 ease-in-out">
+        <div className="flex w-max py-3 center justify-start hover:scale-110 transition duration-200 ease-in-out">
           <img src={logoColored} className="max-w-32px mr-2" />
           <a className="text-xl font-bold self-center cursor-pointer">
             HIMATEKKOM ITS
