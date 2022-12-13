@@ -22,8 +22,10 @@ function Card({ title, content, image, hover }) {
           <p className="text-[12px]">{content}</p>
           <p className="font-bold text-[20px]">{title}</p>
         </div>
-        <div className="text-[12px] px-4 py-4 h-[100px] pl-44 pt-16 flex flex-row">
-          <p className="pr-[4px]  event cursor-pointer">lihat detail </p>
+        <div className="text-[12px] px-4 py-4 h-[100px] pl-44 pt-16 flex flex-row ">
+          <p className="pr-[4px]  event cursor-pointer">
+            lihat detail{" "}
+          </p>
           <p className=" event cursor-pointer"> -> </p>
         </div>
       </div>

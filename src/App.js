@@ -91,11 +91,11 @@ function App() {
             {" "}
             <Intro />
           </div>
-          <div className="shrink-0">
+          {/* <div className="shrink-0">
             {" "}
             <Content />
-          </div>
-          <div className="snap-center shrink-0 h-fit pt-[350px] pb-[64px] bg-[url('./assets/elipse.png')] bg-[length:1400px] bg-no-repeat bg-[center_top_1rem]">
+          </div> */}
+          <div className="snap-center shrink-0 h-fit py-[128px] bg-[url('./assets/ellipse11.png')] bg-[length:1300px] bg-no-repeat bg-center">
             <section class="flex items-center content-between place-content-center">
               <div class="bg-custom-white  grid grid-cols-3">
                 {cardContents.map(({ title, content, image }) => (
